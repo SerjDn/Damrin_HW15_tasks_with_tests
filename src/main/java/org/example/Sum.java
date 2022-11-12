@@ -9,7 +9,7 @@ public class Sum {
 
         for (int i = 0; i < nums.length; i++) {
             for (int j = 0; j < nums.length; j++) {
-                if (nums[i] + nums[j] == target && newNums.length == 0) {
+                if (nums[i] + nums[j] == target && newNums.length == 0 && i != j) {
                     newNums = new int[]{i, j};
                 }
             }

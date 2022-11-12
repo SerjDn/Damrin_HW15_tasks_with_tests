@@ -8,8 +8,8 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("Two Sum:");
-        int[] nums = {2,7,11,15};
-        int target = 9;
+        int[] nums = {3,2,4};
+        int target = 6;
         Sum sum = new Sum();
         System.out.println(Arrays.toString(sum.twoSum(nums, target)) + "\n" + SEPARATOR);
 
