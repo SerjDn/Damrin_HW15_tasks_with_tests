@@ -19,7 +19,7 @@ public class SumTest {
         int target = 9;
         int[] result = {0, 1};
 
-        Assert.assertEquals(result, sum.twoSum(nums, target));
+        Assert.assertArrayEquals(result, sum.twoSum(nums, target));
     }
 
     @Test
@@ -28,7 +28,7 @@ public class SumTest {
         int target = 6;
         int[] result = {1, 2};
 
-        Assert.assertEquals(result, sum.twoSum(nums, target));
+        Assert.assertArrayEquals(result, sum.twoSum(nums, target));
     }
 
     @Test
@@ -37,6 +37,6 @@ public class SumTest {
         int target = 6;
         int[] result = {0, 1};
 
-        Assert.assertEquals(result, sum.twoSum(nums, target));
+        Assert.assertArrayEquals(result, sum.twoSum(nums, target));
     }
 }
